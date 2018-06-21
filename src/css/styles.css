@@ -1,0 +1,58 @@
+html,body{width:100%;overflow-x:hidden !important;}
+
+#mainNav {
+	background-color: #23211f;
+}
+#secondNav {
+	background-color: #2e7d31;
+	margin-top: 56px;
+}
+#navList {
+	text-align: center;
+}
+.nav-item{
+	margin-left: : 21px;
+	margin-right: 21px;
+}
+#subNav {
+	margin-top: 112px;
+	background-color: white;
+	overflow-x: auto;
+	overflow-y: hidden;
+	border-bottom: 1px solid #23211f
+}
+
+#subNav a:hover {
+	border-bottom: 3px solid #2e7d31;
+	color: #2e7d31;
+	}
+#subNav a.active {
+	border-bottom: 3px solid #2e7d31;
+	color: #2e7d31;
+}
+#footer{
+	height: 56px;
+	background-color:  #23211f;
+	color: white;
+	overflow-x: auto;
+	overflow-y: hidden;
+	height: calc(100% - 168px);
+	top: 54px;
+}
+.headline{
+	margin-top: 200px;
+	margin-left: 56px;
+	font-weight: bold;
+}
+.row {
+	margin-top: 24px;
+	margin-bottom: 56px;
+}
+<.navbar-nav {
+	margin-left: 0;
+	margin-right: 0;
+}
+.card {
+	margin-left: 56px;
+	margin-right: 56px;
+}
