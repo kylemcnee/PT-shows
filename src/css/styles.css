@@ -1,5 +1,8 @@
-html,body{width:100%;overflow-x:hidden !important;}
-
+html,
+body {
+	width: 100%;
+	overflow-x: hidden !important;
+}
 #mainNav {
 	background-color: #23211f;
 }
@@ -10,7 +13,7 @@ html,body{width:100%;overflow-x:hidden !important;}
 #navList {
 	text-align: center;
 }
-.nav-item{
+.nav-item {
 	margin-left: : 21px;
 	margin-right: 21px;
 }
@@ -21,25 +24,24 @@ html,body{width:100%;overflow-x:hidden !important;}
 	overflow-y: hidden;
 	border-bottom: 1px solid #23211f
 }
-
 #subNav a:hover {
 	border-bottom: 3px solid #2e7d31;
 	color: #2e7d31;
-	}
+}
 #subNav a.active {
 	border-bottom: 3px solid #2e7d31;
 	color: #2e7d31;
 }
-#footer{
+#footer {
 	height: 56px;
-	background-color:  #23211f;
+	background-color: #23211f;
 	color: white;
 	overflow-x: auto;
 	overflow-y: hidden;
 	height: calc(100% - 168px);
 	top: 54px;
 }
-.headline{
+.headline {
 	margin-top: 200px;
 	margin-left: 56px;
 	font-weight: bold;
